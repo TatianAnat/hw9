@@ -52,5 +52,15 @@ public class Main {
                 System.out.println("Месяц " + monthPercentNew + " сумма накопления равна " + summaNew);
             }
         }
+        //task 6
+        System.out.println("Task 6");
+        int summaN = 15_000;
+        int percentN = 7;
+        float sixMonths= 0;
+        while (sixMonths < 9) {
+            sixMonths = sixMonths + 0.5f;
+            summaN = (summaN / 100) * (percentN / 2) + summaN;
+            System.out.println("Месяц " + sixMonths + " сумма накопления равна " + summaN);
+            }
+        }
     }
-}
