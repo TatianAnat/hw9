@@ -63,11 +63,19 @@ public class Main {
             System.out.println("Месяц " + sixMonths + " сумма накопления равна " + summaN);
             }
         //task 7
+//        System.out.println("Task 7");
+//        int friday = 4;
+//        while (friday <= 31) {
+//            System.out.println("Сегодня пятница, " + friday + "е число. Необходимо подготовить отчет");
+//            friday = friday + 7;
+//        }
+        //task 7
         System.out.println("Task 7");
         int friday = 4;
-        while (friday <= 31) {
+        do {
             System.out.println("Сегодня пятница, " + friday + "е число. Необходимо подготовить отчет");
             friday = friday + 7;
-        }
+        } while (friday <= 31);
+
         }
     }
