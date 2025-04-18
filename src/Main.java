@@ -17,9 +17,18 @@ public class Main {
            System.out.print(i + " ");
        }
         System.out.println();
-
        for(int k = 10; k > 0; k--){
            System.out.print(k + " ");
                  }
+        //task 3
+        System.out.println("Task 3");
+       int population = 12_000_000;
+       int birthRate = 17;
+       int mortality = 8;
+       for (int j = 1; j <= 10; j++){
+           population = population + (birthRate - mortality);
+           System.out.println("Год " + j + ", численность населения составляет " + population);
+
+       }
 }
 }
