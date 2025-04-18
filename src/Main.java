@@ -77,5 +77,21 @@ public class Main {
             friday = friday + 7;
         } while (friday <= 31);
 
+        //task 8
+        System.out.println("Task 8");
+        int currentYear = 2025;
+        int past = 200;
+        int future = 100;
+        int startPast = currentYear - past;
+        int endFuture = currentYear + future;
+        while (startPast < endFuture) {
+            if (startPast % 79 == 0) {
+                System.out.println(startPast);
+                            }
+            startPast++;
+
+        }
+
+
         }
     }
