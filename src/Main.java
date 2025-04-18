@@ -30,5 +30,15 @@ public class Main {
            System.out.println("Год " + j + ", численность населения составляет " + population);
 
        }
+        //task 4
+        System.out.println("Task 4");
+       int summa = 15_000;
+       int percent = 7;
+       int monthPercent = 0;
+       while (summa <= 12_000_000) {
+           monthPercent = monthPercent +1;
+           summa = (summa/100) * 7 + summa;
+           System.out.println("Месяц " + monthPercent + " сумма накопления равна " + summa);
+       }
 }
 }
