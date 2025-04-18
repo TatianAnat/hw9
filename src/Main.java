@@ -62,5 +62,12 @@ public class Main {
             summaN = (summaN / 100) * (percentN / 2) + summaN;
             System.out.println("Месяц " + sixMonths + " сумма накопления равна " + summaN);
             }
+        //task 7
+        System.out.println("Task 7");
+        int friday = 4;
+        while (friday <= 31) {
+            System.out.println("Сегодня пятница, " + friday + "е число. Необходимо подготовить отчет");
+            friday = friday + 7;
+        }
         }
     }
